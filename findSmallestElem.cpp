@@ -53,7 +53,6 @@ void findRanks(vector<int> A, vector<int> B, int k){
 
     if(B.size()%2)
         end_2 = B.end() - 2;
-
     else
         end_2 = B.end() - 1;
 
