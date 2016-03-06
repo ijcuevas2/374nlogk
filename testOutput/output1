@@ -1,0 +1,28 @@
+This is A[0] (before findRanks): 8
+This is A[1] (before findRanks): 80
+This is A[2] (before findRanks): 27
+This is A[3] (before findRanks): 43
+This is A[4] (before findRanks): 84
+This is A[5] (before findRanks): 40
+This is A[6] (before findRanks): 55
+This is A[7] (before findRanks): 3
+This is A[8] (before findRanks): 56
+This is A[9] (before findRanks): 37
+This is B[0]: 1
+This is B[1]: 2
+This is B[2]: 3
+This is B[3]: 4
+This is B[4]: 5
+This is B[5]: 6
+This is B[6]: 7
+This is B[7]: 8
+This is B[8]: 9
+This is the level: 3, kth smallest element: 1, leaf value: 3
+This is the level: 3, kth smallest element: 2, leaf value: 8
+This is the level: 3, kth smallest element: 3, leaf value: 27
+This is the level: 3, kth smallest element: 4, leaf value: 40
+This is the level: 3, kth smallest element: 5, leaf value: 43
+This is the level: 3, kth smallest element: 6, leaf value: 55
+This is the level: 3, kth smallest element: 7, leaf value: 56
+This is the level: 3, kth smallest element: 8, leaf value: 80
+This is the level: 1, kth smallest element: 9, leaf value: 84

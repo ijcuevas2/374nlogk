@@ -1,43 +1,66 @@
-OpenSSH_6.6.1, OpenSSL 1.0.1e-fips 11 Feb 2013
-debug1: Reading configuration data /etc/ssh/ssh_config
-debug1: /etc/ssh/ssh_config line 56: Applying options for *
-debug1: Connecting to github.com [192.30.252.129] port 22.
-debug1: Connection established.
-debug1: identity file /home/icuevas2/.ssh/id_rsa type -1
-debug1: identity file /home/icuevas2/.ssh/id_rsa-cert type -1
-debug1: identity file /home/icuevas2/.ssh/id_dsa type -1
-debug1: identity file /home/icuevas2/.ssh/id_dsa-cert type -1
-debug1: identity file /home/icuevas2/.ssh/id_ecdsa type -1
-debug1: identity file /home/icuevas2/.ssh/id_ecdsa-cert type -1
-debug1: identity file /home/icuevas2/.ssh/id_ed25519 type -1
-debug1: identity file /home/icuevas2/.ssh/id_ed25519-cert type -1
-debug1: Enabling compatibility mode for protocol 2.0
-debug1: Local version string SSH-2.0-OpenSSH_6.6.1
-debug1: Remote protocol version 2.0, remote software version libssh-0.7.0
-debug1: no match: libssh-0.7.0
-debug1: SSH2_MSG_KEXINIT sent
-debug1: SSH2_MSG_KEXINIT received
-debug1: kex: server->client aes128-ctr hmac-sha1 none
-debug1: kex: client->server aes128-ctr hmac-sha1 none
-debug1: kex: ecdh-sha2-nistp256 need=20 dh_need=20
-debug1: kex: ecdh-sha2-nistp256 need=20 dh_need=20
-debug1: sending SSH2_MSG_KEX_ECDH_INIT
-debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
-debug1: Server host key: RSA 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48
-debug1: Host 'github.com' is known and matches the RSA host key.
-debug1: Found key in /home/icuevas2/.ssh/known_hosts:1
-debug1: ssh_rsa_verify: signature correct
-debug1: SSH2_MSG_NEWKEYS sent
-debug1: expecting SSH2_MSG_NEWKEYS
-debug1: SSH2_MSG_NEWKEYS received
-debug1: Roaming not allowed by server
-debug1: SSH2_MSG_SERVICE_REQUEST sent
-debug1: SSH2_MSG_SERVICE_ACCEPT received
-debug1: Authentications that can continue: publickey
-debug1: Next authentication method: publickey
-debug1: Trying private key: /home/icuevas2/.ssh/id_rsa
-debug1: Trying private key: /home/icuevas2/.ssh/id_dsa
-debug1: Trying private key: /home/icuevas2/.ssh/id_ecdsa
-debug1: Trying private key: /home/icuevas2/.ssh/id_ed25519
-debug1: No more authentication methods to try.
-Permission denied (publickey).
+This is A[0] (before findRanks): 78
+This is A[1] (before findRanks): 13
+This is A[2] (before findRanks): 40
+This is A[3] (before findRanks): 67
+This is A[4] (before findRanks): 93
+This is A[5] (before findRanks): 64
+This is A[6] (before findRanks): 76
+This is A[7] (before findRanks): 72
+This is A[8] (before findRanks): 23
+This is A[9] (before findRanks): 69
+This is B.size(): 1, B[0]: 1
+This is *(A.begin() + B[0]-1): 78
+Printing out the contents of the array
+This is A[0]: 13
+This is A[1]: 23
+This is A[2]: 40
+This is A[3]: 67
+This is A[4]: 93
+This is A[5]: 64
+This is A[6]: 76
+This is A[7]: 72
+This is A[8]: 78
+This is A[9]: 69
+This is the level: 2, This is a leaf: 23
+This is B.size(): 1, B[0]: 4
+This is *(A.begin() + B[0]-1): 67
+Printing out the contents of the array
+This is A[0]: 23
+This is A[1]: 13
+This is A[2]: 40
+This is A[3]: 64
+This is A[4]: 67
+This is A[5]: 93
+This is A[6]: 76
+This is A[7]: 72
+This is A[8]: 78
+This is A[9]: 69
+This is the level: 2, This is a leaf: 67
+This is B.size(): 1, B[0]: 6
+This is *(A.begin() + B[0]-1): 64
+Printing out the contents of the array
+This is A[0]: 23
+This is A[1]: 13
+This is A[2]: 67
+This is A[3]: 40
+This is A[4]: 64
+This is A[5]: 72
+This is A[6]: 76
+This is A[7]: 93
+This is A[8]: 78
+This is A[9]: 69
+This is the level: 2, This is a leaf: 76
+This is B.size(): 1, B[0]: 8
+This is *(A.begin() + B[0]-1): 72
+Printing out the contents of the array
+This is A[0]: 23
+This is A[1]: 13
+This is A[2]: 67
+This is A[3]: 40
+This is A[4]: 64
+This is A[5]: 76
+This is A[6]: 72
+This is A[7]: 78
+This is A[8]: 93
+This is A[9]: 69
+This is the level: 2, This is a leaf: 93

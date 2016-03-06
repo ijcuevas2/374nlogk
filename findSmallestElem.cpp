@@ -18,7 +18,7 @@ int main(){
     A.resize(n); // Have an array with n random distinct numbers
     vector<int> B;
     
-   for(int i = 1; i < n; i++)
+   for(int i = 1; i <= n; i++)
         B.push_back(i);
 
     //B.push_back(1);
@@ -40,7 +40,7 @@ void findRanks(vector<int> A, vector<int> B, int k){
 
     if(B.size() == 1)
     {
-        nth_element(A.begin(), A.begin() + B[0]-1, A.end()-1);  
+        nth_element(A.begin(), A.begin() + B[0]-1, A.end());  
         printf("This is the level: %d, kth smallest element: %d, leaf value: %d\n", k, B[0], A[B[0]-1]);
         return;
     }
@@ -72,6 +72,7 @@ void findRanks(vector<int> A, vector<int> B, int k){
 
     if(B.size()%2)
     {
+        //printf("Entered the odd condition, B.size(): %lu\n", B.size());
         vector<int> sub_B_Array(1);
         sub_B_Array[0] = B[B.size()-1];
         findRanks(A, sub_B_Array, k+1); 
