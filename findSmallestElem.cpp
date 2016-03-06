@@ -21,6 +21,9 @@ int main(){
    for(int i = 1; i <= n; i++)
         B.push_back(i);
 
+    //You can comment the loop above and uncomment lines below to
+    //add specific index values to B.
+    //
     //B.push_back(1);
     //B.push_back(4);
     //B.push_back(6);
@@ -57,8 +60,8 @@ void findRanks(vector<int> A, vector<int> B, int k){
         end_2 = B.end() - 1;
 
     //printf("This is *end_1+1: %d\n", *end_1+1);
-    vector<int> leftSubArray(start_1,  end_1+1); //+1: To make the end iter NULL
-    vector<int> rightSubArray(start_2, end_2+1); //+1: To make the end iter NULL
+    vector<int> leftSubArray(start_1,  end_1+1); //+1: One past the last element
+    vector<int> rightSubArray(start_2, end_2+1); //+1: One past the last element
 
     //printf("This is leftSubArray.size(): %lu\n", leftSubArray.size());
     //printf("This is rightSubArray.size(): %lu\n", rightSubArray.size());
